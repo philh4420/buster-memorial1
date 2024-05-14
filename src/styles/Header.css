@@ -1,0 +1,31 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+nav {
+  display: inline-block;
+  background: #444;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
