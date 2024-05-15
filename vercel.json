@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "routes": [
+  "headers": [
     {
-      "src": "/img/(.*)",
-      "dest": "/public/img/$1",
-      "headers": { "cache-control": "public,max-age=31536000,immutable" }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/img/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
     }
-  ],
-  "public": true
+  ]
 }
