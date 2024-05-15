@@ -4,7 +4,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className="home">
-      <img src={`${process.env.PUBLIC_URL}/img/img4/buster166.webp`} alt="Buster" className="buster-image" />
+      <img src={`${process.env.PUBLIC_URL}img/img4/buster166.webp`} alt="Buster" className="buster-image" />
       <h1>In Loving Memory of Buster</h1>
       <h2>R.I.P Little Man</h2>
       <p>Buster was born in September 2003. I adopted him from my niece in 2006. Buster was my best friend for almost 16 years, but sadly I had to do the worst thing any pet owner will have to do, and on the 15th of January 2022, I had to let him go.</p>
