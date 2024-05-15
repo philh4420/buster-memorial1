@@ -8,7 +8,7 @@ function GalleryPage3() {
 
   for (let i = startImage; i <= endImage; i++) {
     images.push(
-      <img key={i} src={`${process.env.PUBLIC_URL}img/img3/buster${i}.webp`} alt={`Buster ${i}`} />
+      <img key={i} src={`${process.env.PUBLIC_URL}/img/img3/buster${i}.webp`} alt={`Buster ${i}`} />
     );
   }
 
